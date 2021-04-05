@@ -103,14 +103,14 @@ public class ListaCircular {
     
     public static void main(String[] ar) {
         ListaCircular lc=new ListaCircular();
-        lc.insertarPrimero(100);
-        lc.insertarPrimero(45);
-        lc.insertarPrimero(12);
+        lc.insertarPrimero(10);
+        lc.insertarPrimero(5);
+        lc.insertarPrimero(2);
         lc.insertarPrimero(4);
         System.out.println("Luego de insertar 4 nodos al principio");
         lc.imprimir();
-        lc.insertarUltimo(250);
-        lc.insertarUltimo(7);
+        lc.insertarUltimo(80);
+        lc.insertarUltimo(123);
         System.out.println("Luego de insertar 2 nodos al final");
         lc.imprimir();
         System.out.println("Cantidad de nodos:"+lc.cantidad());
